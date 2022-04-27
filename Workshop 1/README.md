@@ -3,7 +3,7 @@
 
 ## AIM:
 
-To create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio.
+To create a Welcome Activity  to display messages using Android Studio.
 
 ## EQUIPMENTS REQUIRED:
 
@@ -83,5 +83,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## RESULT
-Thus a Simple Android Application create a HelloWorld Activity using all lifecycles methods to display messages using Android Studio is developed and executed successfully.
+Thus a Simple Android Application create a welcome Activity  to display messages using Android Studio is developed and executed successfully.
 
