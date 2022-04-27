@@ -44,14 +44,13 @@ Step 7: Save and run the application.
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="welcome"
-        android:textColor="#E91E63"
-        android:textColorHighlight="#00BCD4"
-        android:textColorHint="#E91E63"
+        android:text="Welcome!"
+        android:textColor="@android:color/holo_red_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="25sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -77,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![Screenshot (73)](https://user-images.githubusercontent.com/75243072/165436211-2d911625-e12c-4c2c-99b9-808e33a0a042.png)
+
+![k9](https://user-images.githubusercontent.com/75235789/165540017-22718fe3-7705-42ba-b969-62683749bb24.jpg)
 
 
 
