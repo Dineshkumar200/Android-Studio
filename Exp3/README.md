@@ -1,1 +1,168 @@
 
+# Ex.No:3 Create Your Own Content Providers to get Contacts details.
+
+
+## AIM:
+
+To create your own content providers to get contacts details using Android Studio.
+
+## EQUIPMENTS REQUIRED:
+
+Android Studio(Min. required Artic Fox)
+
+## ALGORITHM:
+
+Step 1: Open Android Stdio and then click on File -> New -> New project.
+
+Step 2: Then type the Application name as “ex.no.3″ and click Next. 
+
+Step 3: Then select the Minimum SDK as shown below and click Next.
+
+Step 4: Then select the Empty Activity and click Next. Finally click Finish.
+
+Step 5: Design layout in activity_main.xml.
+
+Step 6: Get contacts details and Display details give in MainActivity file.
+
+Step 7: Save and run the application.
+
+## PROGRAM:
+```java
+/*
+Program to print the text create your own content providers to get contacts details.
+Developed by: Dineshkumar V
+Registeration Number : 212220230013
+*/
+
+
+
+## activity_main.xml
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get contacts"
+        android:onClick="btnGetContactPressed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="OnClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+## MainActivity.java
+
+
+package com.example.myapp3;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+import android.Manifest;
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.util.Log;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void btnGetContactPressed(View v) {
+        getPhoneContacts();
+    }
+
+    private void getPhoneContacts() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS)!=PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this ,new String[]{Manifest.permission.READ_CONTACTS},0);
+        }
+        ContentResolver contentResolver = getContentResolver();
+        Uri uri = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
+        Cursor cursor= contentResolver.query(uri,null,null,null,null,null);
+        Log.i("CONTACT_PROVIDER","TOTAL # of CONTACTS  : : :   " + Integer.toString(cursor.getCount()));
+
+        if (cursor.getCount() > 0) {
+            while (cursor.moveToNext()) {
+                @SuppressLint("Range") String contactName = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
+                @SuppressLint("Range") String contactNumber = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+                Log.i("CONTACT_PROVIDER_DEMO","Contact Name    : : :    "+ contactName+"    ph#     : : :  "+contactNumber);
+
+            }
+        }
+    }
+}
+
+
+
+
+
+## AndroidManifest.xml
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp3">
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+
+
+<application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApp3">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+```
+
+## OUTPUT
+
+
+![h1](https://user-images.githubusercontent.com/75235789/166096274-13c8121d-459a-4fd3-859d-01a600e226a2.jpg)
+![h2](https://user-images.githubusercontent.com/75235789/166096273-fb47f5a8-c803-4ae1-b1f6-34ff2721cc9a.jpg)
+![h3](https://user-images.githubusercontent.com/75235789/166096275-d422be5b-4547-42a8-be15-d4441ff0dcf4.jpg)
+
+
+
+## RESULT
+Thus a Simple Android Application create your own content providers to get contacts details using Android Studio is developed and executed successfully.
+
