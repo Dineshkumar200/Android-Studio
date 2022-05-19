@@ -25,7 +25,7 @@ Step 6: Accept username and password from the end user and the display informati
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>PROGRAM:
 ```
 /*
 Developed by: Dineshkumar V
@@ -195,7 +195,7 @@ Reset Button
 
 ```
 
-## OUTPUT
+## <br/><br/><br/>OUTPUT
 
 ![an1](https://user-images.githubusercontent.com/75235789/169330580-5663d1a6-f5a9-4a66-9947-6acdba68badb.jpg)
 
@@ -204,6 +204,6 @@ Reset Button
 <br/>![an2](https://user-images.githubusercontent.com/75235789/169330618-da0b4e45-2d3c-40b1-aae2-23c336d342bc.jpg)
 
 
-## RESULT
+## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>RESULT
 Thus a Simple Android Application develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student using Android Studio is developed and executed successfully.
 
