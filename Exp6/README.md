@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>OUTPUT
+## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>OUTPUT
 
 
 ![an3](https://user-images.githubusercontent.com/75235789/169343189-89e545c7-785e-4523-af60-176b70c11c10.jpg)
