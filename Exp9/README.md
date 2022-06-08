@@ -246,8 +246,135 @@ public class MainActivity extends AppCompatActivity {
     }
 
     }
+    
+    
+    
+## blink.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="600"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"/>
+</set>
 
 
+## clockwise.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="5000" >
+    </rotate>
+
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:startOffset="5000"
+        android:fromDegrees="360"
+        android:toDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="5000" >
+    </rotate>
+
+</set>
+
+
+
+## fade.xml
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator" >
+
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="2000" >
+    </alpha>
+
+    <alpha
+        android:startOffset="2000"
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="2000" >
+    </alpha>
+
+</set>
+
+
+## move.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:fillAfter="true">
+
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="50%p"
+        android:duration="800" />
+
+    <translate
+        android:startOffset="1000"
+        android:fromXDelta="50%p"
+        android:toXDelta="-50%p"
+        android:duration="800" />
+
+</set>
+
+
+## slide.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+
+    <scale
+        android:duration="500"
+        android:fromXScale="1.0"
+        android:fromYScale="0.0"
+        android:toXScale="1.0"
+        android:toYScale="1.0" />
+
+</set>
+
+## zoom.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromXScale="0.5"
+        android:toXScale="3.0"
+        android:fromYScale="0.5"
+        android:toYScale="3.0"
+        android:duration="1000"
+        android:pivotX="25%"
+        android:pivotY="25%" >
+    </scale>
+
+    <scale xmlns:android="http://schemas.android.com/apk/res/android"
+        android:startOffset="1000"
+        android:fromXScale="3.0"
+        android:toXScale="0.5"
+        android:fromYScale="3.0"
+        android:toYScale="0.5"
+        android:duration="1000"
+        android:pivotX="25%"
+        android:pivotY="25%" >
+    </scale>
+
+</set>
 
 
 
