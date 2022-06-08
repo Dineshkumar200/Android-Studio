@@ -30,7 +30,7 @@ Step 8: Save and run the application.
 
 
 
-## PROGRAM:
+## <br><br><br><br><br><br><br><br><br><br>PROGRAM:
 ```
 /*
 Program to display animation operation”.
@@ -41,9 +41,7 @@ Registeration Number : 212220230013
 
 ```java
 
-
 ## Activity_Main.xml
-
 
 
 <?xml version="1.0" encoding="utf-8"?>
@@ -380,7 +378,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## OUTPUT
+## <br><br><br><br><br><br><br><br><br><br><br><br><br><br>OUTPUT
 
 
 
