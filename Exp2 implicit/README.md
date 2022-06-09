@@ -142,12 +142,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## OUTPUT
-
-### Implicit Intent
-
-
-
+## <br><br><br>OUTPUT
 ![i1](https://user-images.githubusercontent.com/75235789/165367993-8c784d35-4f75-46a2-b3d7-1e95f52e1418.jpg)
 
 ![i2](https://user-images.githubusercontent.com/75235789/165368031-ea490a79-7576-451d-be67-98b797560aad.jpg)
