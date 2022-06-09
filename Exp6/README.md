@@ -32,7 +32,8 @@ Program to print the text “display screen of any search engine”.
 Developed by: Dineshkumar V
 Registeration Number : 212220230013
 */
-
+```
+```java
 ## activity_main.xml
 
 
