@@ -1,4 +1,5 @@
-# Ex.No:8  Build a program to show five checkboxes and toast selected checkboxes.
+# Ex.No:8 
+# Build a program to show five checkboxes and toast selected checkboxes.
 
 
 ## AIM:
@@ -33,10 +34,10 @@ Program to display check list item”.
 Developed by: Dineshkumar V
 Registeration Number : 212220230013
 */
+
 ```
 
-```java
-
+``` java
 ## activity_main.xml:
 
 
@@ -124,8 +125,7 @@ Registeration Number : 212220230013
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
-## MasinActivity.java:
+## MainActivity.java:
 
 
 package com.example.checkbox;
@@ -195,19 +195,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(), "KAWASAKI", Toast.LENGTH_LONG).show();
-
             }
         });
-
-
-
     }
 }
 
-
-
 ```
-
 ## OUTPUT
 
 
