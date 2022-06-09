@@ -1,5 +1,5 @@
 # Ex.No:6
-Build a program to create a first display screen of any search engine using Auto Complete Text View.
+# Build a program to create a first display screen of any search engine using Auto Complete Text View.
 
 ## AIM:
 
@@ -32,8 +32,6 @@ Program to print the text “display screen of any search engine”.
 Developed by: Dineshkumar V
 Registeration Number : 212220230013
 */
-```
-```java
 
 ## activity_main.xml
 
@@ -117,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>OUTPUT
+## <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>OUTPUT
 
 
 ![an3](https://user-images.githubusercontent.com/75235789/169343189-89e545c7-785e-4523-af60-176b70c11c10.jpg)
