@@ -1,5 +1,6 @@
 
-# Ex.No:10 Design an application that draws basic graphical primitives on the screen.
+# Ex.No:10
+# Design an application that draws basic graphical primitives on the screen.
 
 
 ## AIM:
@@ -36,6 +37,13 @@ Registeration Number : 212220230013
 ```
 
 ```java
+
+
+
+
+
+
+
 
 
 ## ActivityMain.xml
