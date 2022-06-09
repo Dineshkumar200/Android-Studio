@@ -1,5 +1,5 @@
 # Ex.No:7 
-Develop a simple calculator using android studio.
+# Develop a simple calculator using android studio.
 
 ## AIM:
 
@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-<br/>![an5](https://user-images.githubusercontent.com/75235789/169348674-dcbb23e9-6129-4fc3-8c3c-afb0ba35eff6.jpg)
+![an5](https://user-images.githubusercontent.com/75235789/169348674-dcbb23e9-6129-4fc3-8c3c-afb0ba35eff6.jpg)
 ![an6](https://user-images.githubusercontent.com/75235789/169348668-441ddf88-ffbb-4492-9b28-b3fb7ed10cd4.jpg)
 
 ![an7](https://user-images.githubusercontent.com/75235789/169348663-a822f63f-2797-49e3-8731-9e885f1e6888.jpg)
