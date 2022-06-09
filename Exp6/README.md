@@ -1,4 +1,5 @@
-# Ex.No:6 Build a program to create a first display screen of any search engine using Auto Complete Text View.
+# Ex.No:6
+Build a program to create a first display screen of any search engine using Auto Complete Text View.
 
 ## AIM:
 
@@ -32,9 +33,7 @@ Developed by: Dineshkumar V
 Registeration Number : 212220230013
 */
 ```
-
 ```java
-
 
 ## activity_main.xml
 
