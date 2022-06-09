@@ -1,5 +1,5 @@
 # Ex.No:5 
-Develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student.
+# Develop a program to accept username and password from the end user using Text View and Edit Text and display personal information of the student.
 
 
 ## AIM:
