@@ -2,13 +2,7 @@
 # Develop a application to draw a shapes using 3D graphics with openGL ES.
 
 ## PROGRAM:
-```
-/*
-Program to create and design an android application to draw a shapes using 3D graphics with openGL ES.
-Developed by: Dineshkumar V
-Registeration Number : 212220230013
-*/
-```
+
 
 ```java
 
