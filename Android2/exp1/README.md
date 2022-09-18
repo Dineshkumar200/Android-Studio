@@ -326,7 +326,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 ![Screenshot 2022-09-18 155949](https://user-images.githubusercontent.com/75235789/190897976-a9008cb7-7bf2-4c9d-937c-e52161bae3c8.jpg)
 
-### insert
+### </b></b></b>insert
 
 
 ![Screenshot 2022-09-18 160042](https://user-images.githubusercontent.com/75235789/190897981-b968a6f6-8410-43d8-93b4-b9f977b7a790.jpg)
