@@ -1,5 +1,5 @@
 
-# Ex.No:1 
+# Ex.No:3
 
 
 ## AIM:
@@ -29,7 +29,7 @@ Step 7: Save and run the application.
 ## PROGRAM:
 ```
 /*
-Program to print the DatabaseTable using the SQLite”.
+
 Developed by: Dineshkumar V
 Registeration Number : 212220230013
 
