@@ -1,13 +1,13 @@
-# Ex.No:6
-# 15/11/22
+### EX NO : 06
+### DATE  : 15/11/22
+# <p align="center"> Create a simple application for Run-Time Permission using android studio.
+ </p>
 
-
-Develop a simple application to display the avaliable sensor in android mobile devices using Sensor Manager in android studio.
 
 
 ## AIM:
 
-To develop a sensor application to use the sensor manager class to identify and get the list of available sensors on a device. in Android Studio.
+To Create a simple application for Run-Time Permission using android studio.
 
 ## EQUIPMENTS REQUIRED:
 
@@ -17,7 +17,7 @@ Android Studio(Min.required Artic Fox)
 
 Step 1: Open Android Stdio and then click on File -> New -> New project.
 
-Step 2: Then type the Application name as Sensor and click Next. 
+Step 2: Then type the Application name as requestruntime and click Next. 
 
 Step 3: Then select the Minimum SDK as shown below and click Next.
 
@@ -25,14 +25,15 @@ Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
 Step 5: Design layout in activity_main.xml.
 
-Step 6: Display avaliable sensor in android mobile devices.
+Step 6: Declare the permission in the Android Manifest file
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+
+## </br></br></br></br></br></br></br>PROGRAM:
 ```
 /*
-Program to print the avaliable sensor in android mobile devices”.
+Program to Create a simple application for Run-Time Permission”.
 Developed by: Dineshkumar V
 Registeration Number : 212220230013
 */
@@ -218,8 +219,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 ```
-## OUTPUT
-
+## </br></br></br></br></br></br></br></br></br></br></br></br>OUTPUT
+</br></br>
 ![Screenshot 2022-11-23 220554](https://user-images.githubusercontent.com/75235789/203602095-b6a83726-8b50-4f9e-b812-e248c4a03d66.jpg)
 
 ![Screenshot 2022-11-23 220611](https://user-images.githubusercontent.com/75235789/203602107-102eec87-c489-4a0e-a14c-d73a5cd60f40.jpg)
@@ -229,5 +230,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## RESULT
-Thus a Simple Android Application to display the avaliable sensor in android mobile devices using Sensor Manager in Android Studio is developed and executed successfully.
+Thus a Simple Android Application for Run-Time Permission using android studio is developed and executed successfully.
 
