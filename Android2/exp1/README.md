@@ -1,6 +1,6 @@
-
-# Ex.No:1 To create a database table and to display the database table field using SQLite Database in Android Studio.
-
+### EX NO : 01
+### DATE  : 07/09/22
+# <p align="center"> create a database table and to display the database table field using SQLite Database </p>
 
 ## AIM:
 
@@ -26,7 +26,7 @@ Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## </br></br></br></br></br></br></br>PROGRAM:
 ```
 /*
 Program to print the DatabaseTable using the SQLite”.
@@ -274,6 +274,17 @@ public class DatabaseManager {
 
 ```
 
+
+
+
+
+
+
+
+
+
+
+
 DatabaseHelper.java
 
 
@@ -322,7 +333,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 
 
-## OUTPUT
+## </br></br></br></br></br></br></br></br></br></br></br></br>OUTPUT
 
 ![Screenshot 2022-09-18 155949](https://user-images.githubusercontent.com/75235789/190897976-a9008cb7-7bf2-4c9d-937c-e52161bae3c8.jpg)
 
@@ -335,6 +346,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 ![Screenshot 2022-09-18 160119](https://user-images.githubusercontent.com/75235789/190897990-95cf2b60-5f3c-408a-9d54-4bf3103d62d4.jpg)
 
 
-## RESULT
+## </br></br></br></br>RESULT
 Thus a Simple Android Application create a dtatabase table and to display the database table  using SQLite Database in Android Studio is developed and executed successfully.
 
