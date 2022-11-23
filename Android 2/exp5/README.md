@@ -1,4 +1,6 @@
-# Ex.No:5 Develop a simple application for proximity sensor using Sensor Manager in android studio.
+### EX NO : 05
+### DATE  : 09/11/22
+# <p align="center"> Develop a simple application for proximity sensor using Sensor Manager in android studio </p>
 
 
 ## AIM:
@@ -25,7 +27,7 @@ Step 6: Display process of proximitysensor in android mobile devices.
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## </br></br></br></br></br></br></br></br>PROGRAM:
 ```
 /*
 Program to print the process of proximitysensor in android mobile devices”.
@@ -34,11 +36,9 @@ Registeration Number : 212220230013
 */
 ```
 
-Activitu_Main.xml
+Activity_Main.xml
 
-
-```java
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -62,15 +62,11 @@ Activitu_Main.xml
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 ```
-
 Main_Activtiy.java
 
 ```java
-
 package com.example.proximitysensor;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -137,14 +133,13 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-
-## OUTPUT
+## </br></br></br></br></br></br></br>OUTPUT
 
 ![Screenshot 2022-11-13 154823](https://user-images.githubusercontent.com/75235789/201517404-0a1546ac-5ffd-45d6-a9cc-a0ada6e5cf5f.jpg)
 
-
+</br></br></br></br>
 ![Screenshot 2022-11-13 154835](https://user-images.githubusercontent.com/75235789/201517405-744ae8e6-6d14-4039-b329-d4c7e6a2d67f.jpg)
 
-## RESULT
+## </br></br></br></br>RESULT
 Thus a Simple Android Application to display the details of proximity sensor using sensor manager in Android Studio is developed and executed successfully.
 
