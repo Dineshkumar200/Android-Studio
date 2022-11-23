@@ -1,5 +1,6 @@
-
-# Ex.No:3
+### EX NO : 03
+### DATE  : 11/10//22
+# <p align="center"> Develop a simple application to play and control the audio file in android studio </p>
 
 
 ## AIM:
@@ -26,7 +27,7 @@ Step 6: Display message give in MainActivity file.
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## </br></br></br></br></br></br></br>PROGRAM:
 ```
 /*
 
@@ -171,13 +172,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-## OUTPUT
+## </br></br></br></br></br></br></br></br></br></br></br></br></br>OUTPUT
 
-
+</br></br>
 ![Screenshot 2022-11-05 192134](https://user-images.githubusercontent.com/75235789/200123351-bdbff7bb-9fdb-4665-be22-3b0f3d4f60ef.jpg)
 
 
-## RESULT
+## </br></br></br>RESULT
 Thus a Simple Android Application To Develop a simple application to play and control the audio file in android studio is developed and executed successfully.
 
 
