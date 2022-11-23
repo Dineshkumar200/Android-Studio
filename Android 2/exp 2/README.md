@@ -1,4 +1,6 @@
-# Ex.No:2 Create a simple application client and server service using AIDL interface in android studio.
+### EX NO : 02
+### DATE  : 20/09/22
+# <p align="center">Create a simple application client and server service using AIDL interface in android studio </p>
 
 
 ## AIM:
@@ -25,7 +27,7 @@ Step 6: Display message give in MainActivity file(client/server).
 
 Step 7: Save and run the application.
 
-## PROGRAM:
+## <br/><br/><br/><br/><br/><br/><br/>PROGRAM:
 ```
 /*
 Program to print the client/server services using AIDL”.
@@ -260,6 +262,6 @@ AndroidManifest.xml
 ![Screenshot 2022-11-08 190911](https://user-images.githubusercontent.com/75235789/200583933-88763be6-8516-49a8-a588-3462f8a068ab.jpg)
 
 
-## RESULT
+## <br/><br/><br/><br/>RESULT
 Thus a Simple Android Application to create a AIDL interface and communicate the process between client and server using AIDL interface in Android Studio is developed and executed successfully.
 
